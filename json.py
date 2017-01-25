@@ -17,12 +17,13 @@ print GpioConfig[u]
 for key, value in GpioConfig.iteritems():
     print key,type(key)
     print GpioConfig[u]
+print "="*len(GpioConfig)
     
 # conbine two array
 
 GpioConfig_b  = json.loads('{"安安":"哈摟"}')
 c = dict(GpioConfig.items() + GpioConfig_b.items())
 
-for key, value in GpioConfig.iteritems():
+for key, value in c.iteritems():
     print key,type(key)
-    print GpioConfig[u]
+    print c[key]
