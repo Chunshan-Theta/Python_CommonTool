@@ -21,7 +21,7 @@ for key, value in GpioConfig.iteritems():
 # conbine two array
 
 GpioConfig_b  = json.loads('{"安安":"哈摟"}')
-c = dict(GpioConfig_a.items() + GpioConfig_b.items())
+c = dict(GpioConfig.items() + GpioConfig_b.items())
 
 for key, value in GpioConfig.iteritems():
     print key,type(key)
