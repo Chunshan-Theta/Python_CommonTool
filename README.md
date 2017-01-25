@@ -8,4 +8,6 @@ JsonData.json
 json.py
   
   - read file's content 
+  
   - decoding json that contain chinese
+  - output key of json
