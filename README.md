@@ -9,4 +9,4 @@ json.py
   
   - read file's content  
   - output key of json
-  - decoding json that contain chinese
+  - decoding json that contain chinese
